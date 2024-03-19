@@ -1,0 +1,9 @@
+lib: [
+  "_build/install/default/lib/ysc2229/META"
+  "_build/install/default/lib/ysc2229/dune-package"
+  "_build/install/default/lib/ysc2229/opam"
+]
+doc: [
+  "_build/install/default/doc/ysc2229/LICENSE"
+  "_build/install/default/doc/ysc2229/README.md"
+]

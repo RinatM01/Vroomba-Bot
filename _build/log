@@ -1,0 +1,119 @@
+# dune build --profile release @install
+# OCAMLPARAM: unset
+# Workspace root:
+# /Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/c0/b3f16sws0mv0s3_54wjc1kgw0000gn/T/dune965d33.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/rinatmusin/.opam/4.11.1/bin/ocamlc.opt -config > /var/folders/c0/b3f16sws0mv0s3_54wjc1kgw0000gn/T/dune2d110e.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/rinatmusin/.opam/4.11.1/lib/toplevel"
+#  ; ocaml_bin = External "/Users/rinatmusin/.opam/4.11.1/bin"
+#  ; ocaml = Ok External "/Users/rinatmusin/.opam/4.11.1/bin/ocaml"
+#  ; ocamlc = External "/Users/rinatmusin/.opam/4.11.1/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/rinatmusin/.opam/4.11.1/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/rinatmusin/.opam/4.11.1/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/rinatmusin/.opam/4.11.1/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/rinatmusin/.opam/4.11.1/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/rinatmusin/.opam/4.11.1/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg"
+#        ; "INSIDE_DUNE" :
+#            "/Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/rinatmusin/Desktop/final-project-2022-lilzichen_rinatlamar_renyudogg/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/rinatmusin/.opam/4.11.1/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.1"
+#      ; standard_library_default = "/Users/rinatmusin/.opam/4.11.1/lib/ocaml"
+#      ; standard_library = "/Users/rinatmusin/.opam/4.11.1/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.2.0"
+#      ; target = "x86_64-apple-darwin20.2.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/rinatmusin/.opam/4.11.1/bin/ocamlc.opt -w -40 -g -bin-annot -I runners/.vroomba.eobjs/byte -I /Users/rinatmusin/.opam/4.11.1/lib/base -I /Users/rinatmusin/.opam/4.11.1/lib/base/base_internalhash_types -I /Users/rinatmusin/.opam/4.11.1/lib/base/caml -I /Users/rinatmusin/.opam/4.11.1/lib/base/md5 -I /Users/rinatmusin/.opam/4.11.1/lib/base/shadow_stdlib -I /Users/rinatmusin/.opam/4.11.1/lib/base_bigstring -I /Users/rinatmusin/.opam/4.11.1/lib/base_quickcheck -I /Users/rinatmusin/.opam/4.11.1/lib/batteries -I /Users/rinatmusin/.opam/4.11.1/lib/bin_prot -I /Users/rinatmusin/.opam/4.11.1/lib/bin_prot/shape -I /Users/rinatmusin/.opam/4.11.1/lib/bytes -I /Users/rinatmusin/.opam/4.11.1/lib/core -I /Users/rinatmusin/.opam/4.11.1/lib/core/error_checking_mutex -I /Users/rinatmusin/.opam/4.11.1/lib/core_kernel -I /Users/rinatmusin/.opam/4.11.1/lib/core_kernel/base_for_tests -I /Users/rinatmusin/.opam/4.11.1/lib/core_kernel/caml_unix -I /Users/rinatmusin/.opam/4.11.1/lib/core_kernel/flags -I /Users/rinatmusin/.opam/4.11.1/lib/core_kernel/version_util -I /Users/rinatmusin/.opam/4.11.1/lib/fieldslib -I /Users/rinatmusin/.opam/4.11.1/lib/graphics -I /Users/rinatmusin/.opam/4.11.1/lib/jane-street-headers -I /Users/rinatmusin/.opam/4.11.1/lib/num -I /Users/rinatmusin/.opam/4.11.1/lib/ocaml/threads -I /Users/rinatmusin/.opam/4.11.1/lib/parsexp -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_assert/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_bench/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_compare/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_enumerate/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_expect/collector -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_expect/common -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_expect/config -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_expect/config_types -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_hash/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_here/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_inline_test/config -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_inline_test/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_module_timer/runtime -I /Users/rinatmusin/.opam/4.11.1/lib/ppx_sexp_conv/runtime-lib -I /Users/rinatmusin/.opam/4.11.1/lib/sexplib -I /Users/rinatmusin/.opam/4.11.1/lib/sexplib/unix -I /Users/rinatmusin/.opam/4.11.1/lib/sexplib0 -I /Users/rinatmusin/.opam/4.11.1/lib/spawn -I /Users/rinatmusin/.opam/4.11.1/lib/splittable_random -I /Users/rinatmusin/.opam/4.11.1/lib/stdio -I /Users/rinatmusin/.opam/4.11.1/lib/time_now -I /Users/rinatmusin/.opam/4.11.1/lib/timezone -I /Users/rinatmusin/.opam/4.11.1/lib/typerep -I /Users/rinatmusin/.opam/4.11.1/lib/variantslib -I lib/.ysc2229.objs/byte -I vroomba/.vroomba.objs/byte -no-alias-deps -o runners/.vroomba.eobjs/byte/dune__exe__Vroomba.cmo -c -impl runners/vroomba.ml)
+> File "runners/vroomba.ml", line 61, characters 7-19:
+> 61 |        render_games input_file output_file)                
+>             ^^^^^^^^^^^^
+> Error: Unbound value render_games
+[2]
